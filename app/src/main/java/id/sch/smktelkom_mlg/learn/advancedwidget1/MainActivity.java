@@ -70,7 +70,7 @@ public class MainActivity extends AppCompatActivity {
         String hasil="";
         for(int i = 1; i <= jumlah; i++)
         {
-            LinearLayout llNow = (LinearLayout) llAnak.findViewWithTag("Anak "+i);
+            LinearLayout llNow = (LinearLayout) llAnak.findViewWithTag("Anak "+ i);
 
             EditText etNama = (EditText) llNow.findViewById(R.id.editTextNama);
             EditText etUmur = (EditText) llNow.findViewById(R.id.editTextUmur);
